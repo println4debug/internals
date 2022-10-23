@@ -1,0 +1,210 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+#myVideo{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#navbar {
+    background-color: black;
+    opacity: 0.95;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+#navbar-title {
+    width: 20%;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+#navbar-title a{
+    font-family: 'Reenie Beanie', sans-serif;
+    font-size: 24px;
+}
+#navbar-title #simon{
+    color: #1B7EDB;
+}
+
+#navbar-title #furitsch{
+    color: white;
+}
+
+#navbar-item-wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar-item-wrapper .navbar-item a{
+    font-size: 16px;
+    color: white;
+}
+
+.navbar-item a{
+    font-family: "Roboto", sans-serif;
+}
+
+/*Hyperlinks Navbar*/
+.navbar-item a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-item a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-item a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.navbar-item a:active {
+    text-decoration: none;
+    color: black;
+}
+
+#picture{
+    width: 80%;
+    height: 70%;
+    border-radius: 8%;
+    align-self: center;
+}
+
+#body_me{
+    margin-top: 15px;
+    display: flex;
+    width: 50%;
+    align-self: center;
+    justify-self: center;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+#body_main{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+    height: 100%;
+}
+
+#body_left{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#body_right{
+    width: 75%;
+    margin-left: 3px;
+    overflow-wrap: break-word;
+}
+
+#body_secondary{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+#body_secondary_left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#body_secondary_right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#body_secondary_right h3 {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    align-self: center;
+}
+
+#body_secondary_right p {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+#body_secondary_left h3 {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    align-self: center;
+}
+
+#body_secondary_left p {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.box_headlining{
+    font-family: "Roboto", sans-serif;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: "Roboto", sans-serif;
+}
+#footer-right a {
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+}
+
+#footer-right{
+    display: flex;
+}
+
+.footerimg{
+    height: 80%;
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+}
+
+.box-line{
+    width: 100%;
+    border: rgba(0,0,0,0);
+    border-top: 1px solid #1B7EDB;
+}
